@@ -1,0 +1,134 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400&family=Roboto+Slab&family=Roboto:wght@400;500;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+font-family: 'Yellowtail', cursive;
+
+color scheme:
+background color: rgb(44, 44, 52)
+font color: rgb(255, 202, 78)--yellow
+font color: rgb(255, 255, 255) --white
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #231F20;
+    color: white;
+}
+
+/* .menu{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: ; 
+
+ */
+
+.topnav{
+    position: relative;
+    background-image: url("../html/Christmas_Star_Twisted_Bread.jpg     ");
+    height: 30vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+
+/* padding: 14px 20px;
+text-decoration: none;
+font-size: 17px;
+text-align: center;
+display: flexbox;
+justify-content: space-around; */
+
+
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+
+}
+ 
+.links{
+/* background-color: white; */
+width: 95%;
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%, -95% );
+display: flex;
+justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-size: 24px;
+   }
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navleft{
+    width: 43%;
+    /* background-color: red; */
+}
+
+.navright{
+    width: 43%;
+    /* background-color: red; */
+}
+
+
+.homepage-content{
+    background-color: #2c2c34;
+}
+
+
+.image-container{
+    height: 30vh; 
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    /* background: #ffff23; */
+}
+
+.image{
+    width: 150px;
+    clip-path: circle();
+}
+
+img{
+    height: 100px;
+    width: 150px;
+}
+
+
+/* .emoaw{
+    font-family: roboto slab regular;
+    align-content: center;
+    margin-left: 50%;
+}
+
+.bakery{
+    font-family: roboto condensed;
+    /* margin-top: 40%; 
+    margin-left: 50%;
+} */
+
+
