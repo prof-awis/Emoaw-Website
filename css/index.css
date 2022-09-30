@@ -146,10 +146,13 @@ img{
 }
 h1{
     margin: 10px 10px;
+    color: rgb(255, 202, 78);
+    font-family: 'Yellowtail', cursive;
 }
 .our-heritage p{
     margin: 20px 20px;
     font-size: 22px;
+    
 }
 /* .emoaw{
     font-family: roboto slab regular;
