@@ -11,8 +11,8 @@ font-family: 'Yellowtail', cursive;
 color scheme:
 background color: rgb(44, 44, 52)
 font color: rgb(255, 202, 78)--yellow
-font color: rgb(255, 255, 255) --white
-*/
+font color: rgb(255, 255, 255) --white */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,33 +21,18 @@ font color: rgb(255, 255, 255) --white
 
 body{
     background-color: #231F20;
+    margin: 20px 20px;
     color: white;
 }
 
-/* .menu{
-   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: ; 
-
- */
 
 .topnav{
     position: relative;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../html/Christmas_Star_Twisted_Bread.jpg     ");
-    height: 30vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Christmas_Star_Twisted_Bread.jpg");
+    height: 20vh;
     width: 100%;
     background-position: center center;
     background-size: cover;
-
-/* padding: 14px 20px;
-text-decoration: none;
-font-size: 17px;
-text-align: center;
-display: flexbox;
-justify-content: space-around; */
-
 
 }
 
@@ -105,28 +90,43 @@ li a{
 
 .homepage-content{
     background-color: #2c2c34;
-    height: 70vh;
+    /* background-color: aqua; */
+    height: auto;
+    display: flex;
 }
 
+.left-homepage-content{
+    /* background-color: red; */
+    width: 20%;
+    
+}
 
+.sidebar{
+    margin: 10px 10px;
+    /* background-color: #231F20; */
+}
 .image-container{
-    height: 200px; 
+    height: 40vh; 
+    margin: 10px 20px;
+    /* border: solid green; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    display: flex;
     
     /* background: #ffff23;  */
 }
 
 .meal_card{
+    height: 80%;
+    width: 160px;
+    margin: 5px 5px;
+    border: solid white;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     padding: 10px 10px;
-    height: 160px;
-    width: 160px;
+   
 
     /* background-color: aqua; */
 }
@@ -143,6 +143,7 @@ img{
 
 .our-heritage{
     text-align: center;
+    height: auto;
 }
 h1{
     margin: 10px 10px;
