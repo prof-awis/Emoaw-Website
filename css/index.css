@@ -29,6 +29,7 @@ body{
 .topnav{
     position: relative;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Christmas_Star_Twisted_Bread.jpg");
+    backdrop-filter: 200px;
     height: 20vh;
     width: 100%;
     background-position: center center;
@@ -105,32 +106,41 @@ li a{
     margin: 10px 10px;
     /* background-color: #231F20; */
 }
+
+.right-homepage-content{
+   display: grid;
+}
+
 .image-container{
-    height: 40vh; 
+    /* height: 40vh;  */
     margin: 10px 20px;
     /* border: solid green; */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
     
     /* background: #ffff23;  */
 }
 
+
+
 .meal_card{
-    height: 80%;
+    /* height: 200px; */
     width: 160px;
-    margin: 5px 5px;
+    margin: 0px 5px;
     border: solid white;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 1rem 10px;
    
 
     /* background-color: aqua; */
 }
-
+.meal_card p {
+    padding: 0.6rem 0rem;
+}
 .image{
     width: 150px;
     clip-path: circle();
